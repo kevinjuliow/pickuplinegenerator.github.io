@@ -1,0 +1,65 @@
+*{
+  padding: 0;
+  margin : 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 240px;
+  background: url(img/red-hearts-paper-hearts-paper-crafts-love-letter-hearts-1920x1080-8908.jpg);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: 1900px;
+}
+.container{
+  text-align: center;
+  width: 850px;
+}
+
+.header{
+  background-color: rgb(247, 180, 210 , 0.95);
+  width: 80%;
+  margin-left: 10%;
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+  border-radius: 10px;
+}
+
+.lineArea{
+  padding: 100px 40px;
+  margin-top: 30px;
+  background-color: rgba(247, 154, 177, 0.95);
+  border-radius: 40px;
+  border-style: solid;
+  border-color: aliceblue;
+}
+.line{
+  font-size: 30px;
+}
+
+.newLineButton{
+  font-size: 25px;
+  margin-top: 35px;
+  padding: 10px 100px;
+  border-radius: 100px;
+  border-style: none;
+  transition: .5s;
+}
+
+.newLineButton:hover{
+  background-color: rgb(237, 180, 212);
+  box-shadow: 0 0 5px;
+  padding: 10px 90px;
+  transition: .5s;
+  cursor: pointer;
+}
+
+.newLineButton:active{
+  opacity: 0.5;
+  background-color: rgb(200, 152, 179);
+}
+
